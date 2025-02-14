@@ -23,9 +23,9 @@ export default function App() {
   }, [])
 
   return (
-    <div className='bg-gray-800 scroll-smooth '>
+    <div className='bg-gray-800 scroll-smooth'>
       {loading && <LoaderPage />}
-      {/* <Header /> */}
+      <Header />
       <HeroHomePage />
       <h2 id='projects' className='lg:text-5xl text-2xl text-left ml-[12%] font-family-sans text-[#b6a45e]'>Mis Proyectos</h2>
       <ProjectsSection />

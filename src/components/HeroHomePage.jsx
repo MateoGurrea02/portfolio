@@ -7,7 +7,7 @@ export default function HeroHomePage() {
   const { t } = useTranslation();
   return (
     <Container>
-      <div className="w-full text-center h-dvh grid lg:grid-cols-5 grid-cols-1 place-items-center lg:gap-12">
+      <div className="w-full text-center h-dvh grid lg:grid-cols-5 grid-cols-1 place-items-center lg:gap-12 lg:pt-0 pt-40">
         <span className="col-start-1 lg:col-span-3 font-family-sans text-[#b6a45e]">
           <TypeAnimation
             repeat={Infinity}
