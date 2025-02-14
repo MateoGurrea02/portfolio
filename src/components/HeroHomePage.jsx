@@ -11,7 +11,7 @@ export default function HeroHomePage() {
   useEffect(() => {
     setLanguage(i18n.language)
   }, [i18n.language])
-  
+
   return (
     <Container>
       {console.log(i18n.language)}
@@ -23,9 +23,9 @@ export default function HeroHomePage() {
             className="font-family-sans lg:text-5xl text-2xl text-[#b6a45e]"
             cursor={true}
             sequence={[
-              'Hello, I am Mateo Gurrea',// `${t('Presentation1')}`,
+              'Hello, I am Mateo Gurrea',
               3000,
-              'Hello, I am Web Developer',// `${t('Presentation2')}`,
+              'Hello, I am Web Developer',
               5000,
             ]}
             />
@@ -36,9 +36,9 @@ export default function HeroHomePage() {
             className="font-family-sans lg:text-5xl text-2xl text-[#b6a45e]"
             cursor={true}
             sequence={[
-              'Hola, soy Mateo Gurrea',// `${t('Presentation1')}`,
+              'Hola, soy Mateo Gurrea',
               3000,
-              'Hola, soy Desarrollador Web',// `${t('Presentation2')}`,
+              'Hola, soy Desarrollador Web',
               5000,
             ]}
             />
