@@ -8,8 +8,8 @@ export default function Footer() {
     <footer className="bg-gray-800 pt-10 sm:mt-10 ">
       <Contact />
       <div className="pt-2">
-        <div className="flex pb-5 px-3 m-auto pt-5 border-t border-gray-500 text-white text-sm flex-col md:flex-row justify-center">
-          <span className="w-1/2 text-center flex justify-end items-center ">
+        <div className="flex pb-5 px-3 m-auto pt-5 border-t border-gray-500 text-white text-sm flex-col md:flex-row items-center lg:justify-center">
+          <span className="w-1/2 text-center flex lg:flex-row flex-col items-center ">
             <div className="mt-2">{t('CopyRight')}</div>
 
             <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex text-white text-3xl">

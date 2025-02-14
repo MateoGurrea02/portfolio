@@ -18,17 +18,17 @@ export default function AboutMe() {
 
   return (
     <div>
-      <div className='flex ml-[12%] mr-[10%] mt-30 '>
-        <div className='flex flex-col items-left w-7xl'>
-          <h2 id='about' className='text-5xl text-left font-family-sans text-[#b6a45e]'>{t('AboutMe')}</h2>
+      <div className='flex lg:flex-row flex-col ml-[12%] mr-[10%] mt-30 '>
+        <div className='flex flex-col items-left lg:w-7xl'>
+          <h2 id='about' className='lg:text-5xl text-2xl text-left font-family-sans text-[#b6a45e]'>{t('AboutMe')}</h2>
 
-          <h3 className='text-2xl text-left  mt-10 text-white'>{t('AboutMeDescription')}</h3>
+          <h3 className='lg:text-2xl text-sm text-left mt-5 lg:mt-10 text-white'>{t('AboutMeDescription')}</h3>
           <div className='mt-10'>
             <a href={cv} download className='hover:bg-emerald-700 bg-emerald-600 text-white px-8 py-5 rounded-lg text-lg'>{t('DownloadCV')}</a>
           </div>
         </div>
-        <div className='flex flex-wrap flex-col ml-20'>
-          <h2 className='text-5xl text-left font-family-sans text-[#b6a45e]'>{t('Skills')}</h2>
+        <div className='flex flex-wrap flex-col lg:ml-20 lg:mt-0 mt-10'>
+          <h2 className='lg:text-5xl text-2xl text-left font-family-sans text-[#b6a45e]'>{t('Skills')}</h2>
           <div className='flex flex-wrap mt-10 justify-start'>
             <IndividualSkill icon="fa-brands fa-html5" title='HTML'/>
             <IndividualSkill icon="fa-brands fa-css3-alt" title='CSS'/>
@@ -46,7 +46,7 @@ export default function AboutMe() {
         </div>
       </div>
 
-      <div className='flex mx-[10%] mt-30 text-7xl text-white'>
+      <div className='flex lg:flex-row flex-col mx-[10%] mt-30 text-7xl text-white'>
         <div className='flex flex-col items-center aos-item' data-aos="fade-up" data-aos-duration="500" >  
           <span className='w-52 h-52 flex items-center justify-center rounded-full m-10  bg-emerald-600'>
             <i className="fa-brands fa-steam-symbol"></i>

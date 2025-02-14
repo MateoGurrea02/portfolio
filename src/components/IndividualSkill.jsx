@@ -10,9 +10,9 @@ export default function IndividualSkill({title, icon}) {
     return strings[Math.floor(Math.random() * strings.length)]
   }
   return (
-    <span className='w-auto h-20 bg-emerald-600 flex items-center rounded-full mx-2 mb-2 text-white text-4xl p-7 aos-item'  data-aos={randomString()} data-aos-duration={random()}>
+    <span className='w-auto h-5 lg:h-20 bg-emerald-600 flex items-center rounded-full mx-2 mb-2 text-white lg:text-4xl p-7 aos-item'  data-aos={randomString()} data-aos-duration={random()}>
       <i className={icon}></i>
-      <p className='font-family-sans text-base pl-6'>{title}</p>
+      <p className='font-family-sans text-xs pl-6'>{title}</p>
     </span>
   )
 }
