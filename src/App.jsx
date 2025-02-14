@@ -7,27 +7,27 @@ import AboutMe from './components/AboutMe'
 import Footer from './components/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useTranslation } from 'react-i18next'
  
 
 export default function App() {
+  const { t } = useTranslation();
   AOS.init();
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // cancelar el scroll
-    document.body.style.overflow = 'hidden'
+     window.scrollTo(-1, 0)
     setTimeout(() => {
       setLoading(false)
-      document.body.style.overflow = 'auto'
     }, 4000)
   }, [])
 
   return (
-    <div className='bg-gray-800 scroll-smooth'>
+    <div className='bg-gray-800'>
       {loading && <LoaderPage />}
       <Header />
       <HeroHomePage />
-      <h2 id='projects' className='lg:text-5xl text-2xl text-left ml-[12%] font-family-sans text-[#b6a45e]'>Mis Proyectos</h2>
+      <h2 id='projects' className='lg:text-5xl text-2xl text-left ml-[12%] font-family-sans text-[#b6a45e]'>{t('MyProjects')}</h2>
       <ProjectsSection />
       <AboutMe />
       <Footer/>

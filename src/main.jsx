@@ -8,7 +8,7 @@ import './index'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <AnimatedCursor color='220, 164, 94'/> */}
+    <AnimatedCursor color='220, 164, 94'/>
     <App/>
   </StrictMode>,
 )

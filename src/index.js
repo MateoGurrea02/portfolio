@@ -13,6 +13,7 @@ i18n.use(initReactI18next)
               translation:{
                 English:'English',
                 Home:'Home',
+                MyProjects:'My Projects',
                 Projects:'Projects',
                 AboutMe:'About Me',
                 AboutMeDescription:'Web Developer with more than 3 years of knowledge and academic experience, received from the Higher Technician in Software Development. Passionate about programming and aesthetically beautiful designs of web pages.',
@@ -43,6 +44,7 @@ i18n.use(initReactI18next)
               translation:{
                 English:'Ingles',
                 Home:'Inicio',
+                MyProjects:'Mis Proyectos',
                 Projects:'Proyectos',
                 AboutMe:'Sobre Mi',
                 AboutMeDescription:'Desarrollador Web con mas de 3 años de conocimientos y experiencia academica, recibido de la Tecnicatura Superior en Desarrollo de Software. Apasionado de la programacion y los diseños esteticamente bonitos de las paginas web.',
