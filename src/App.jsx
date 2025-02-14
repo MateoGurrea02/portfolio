@@ -4,11 +4,13 @@ import Header from './components/Header'
 import HeroHomePage from './components/HeroHomePage'
 import ProjectsSection from './components/ProjectsSection'
 import AboutMe from './components/AboutMe'
-import Container from './components/Container'
 import Footer from './components/Footer'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 export default function App() {
+  AOS.init();
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
