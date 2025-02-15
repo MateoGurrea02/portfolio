@@ -46,36 +46,36 @@ export default function AboutMe() {
         </div>
       </div>
 
-      <div className='flex lg:flex-row flex-col mx-[10%] mt-30 text-7xl text-white'>
-        <div className='flex flex-col items-center aos-item' data-aos="fade-up" data-aos-duration="500" >  
-          <span className='w-52 h-52 flex items-center justify-center rounded-full m-10  bg-emerald-600'>
+      <div className='grid lg:grid-cols-2 grid-cols-1 xl:grid-cols-4 mx-[10%] mt-30 text-7xl text-white'>
+        <div className='text-center aos-item my-10' data-aos="fade-up" data-aos-duration="500" >  
+          <span className='w-52 h-52 mx-auto flex justify-center items-center rounded-full text-center bg-emerald-600'>
             <i className="fa-brands fa-steam-symbol"></i>
           </span>
-          <h2 className='text-3xl mb-3'>{t('VideoGames')}</h2>
-          <p className='text-lg w-4/5  text-center'>{t('VideoGamesDescription')}</p>
+          <h2 className='text-3xl my-3 text-center'>{t('VideoGames')}</h2>
+          <p className='text-lg xl:mx-10 lg:mx-12 md:mx-40 text-center'>{t('VideoGamesDescription')}</p>
         </div>
-        <div className='flex flex-col items-center aos-item' data-aos="fade-up" data-aos-duration="1000" >
-          <span className='w-52 h-52 flex items-center justify-center rounded-full m-10  bg-emerald-600'>
+        <div className='text-center aos-item my-10' data-aos="fade-up" data-aos-duration="1000" >
+          <span className='w-52 h-52 mx-auto flex justify-center items-center rounded-full  bg-emerald-600'>
             <i className="fa-solid fa-clapperboard"></i>
           </span>
-          <h2 className='text-3xl mb-3'>{t('Movies')}</h2>
-          <p className='text-lg w-4/5  text-center'>{t('MoviesDescription')}</p>
+          <h2 className='text-3xl my-3'>{t('Movies')}</h2>
+          <p className='text-lg xl:mx-10 lg:mx-12 md:mx-40 text-center'>{t('MoviesDescription')}</p>
         </div>
-        <div className='flex flex-col items-center aos-item' data-aos="fade-up" data-aos-duration="1500" >
-          <span className='w-52 h-52 flex items-center justify-center rounded-full m-10  bg-emerald-600'>
+        <div className='text-center aos-item my-10' data-aos="fade-up" data-aos-duration="1500" >
+          <span className='w-52 h-52 mx-auto flex justify-center items-center rounded-full  bg-emerald-600'>
             <i className="fa-solid fa-screwdriver-wrench"></i>
           </span>
-          <h2 className='text-3xl mb-3'>{t('Karting')}</h2>
-          <p className='text-lg w-4/5  text-center'>
+          <h2 className='text-3xl my-3'>{t('Karting')}</h2>
+          <p className='text-lg xl:mx-10 lg:mx-12 md:mx-40 text-center'>
           {t('KartingDescription')}
           </p>
         </div>
-        <div className='flex flex-col items-center aos-item' data-aos="fade-up" data-aos-duration="2000" >
-          <span className='w-52 h-52 flex items-center justify-center rounded-full m-10  bg-emerald-600'>
+        <div className='text-center aos-item my-10' data-aos="fade-up" data-aos-duration="2000" >
+          <span className='w-52 h-52 mx-auto flex justify-center items-center rounded-full  bg-emerald-600'>
             <i className="fa-solid fa-baseball"></i>
           </span>
-          <h2 className='text-3xl mb-3'>{t('Padel')}</h2>
-          <p className='text-lg w-4/5  text-center'>
+          <h2 className='text-3xl my-3'>{t('Padel')}</h2>
+          <p className='text-lg xl:mx-10 lg:mx-12 md:mx-40 text-center'>
           {t('PadelDescription')}
           </p>
         </div>
